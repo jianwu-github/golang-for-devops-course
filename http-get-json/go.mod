@@ -1,3 +1,3 @@
-module github.com/wardviaene/go-for-devops-course/http-get-json
+module github.com/jianwu-github/go-for-devops-course/http-get-json
 
-go 1.18
+go 1.21
