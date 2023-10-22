@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/wardviaene/golang-for-devops-course/http-login-packaged/pkg/api"
+	"github.com/jianwu-github/golang-for-devops-course/http-login-packaged/pkg/api"
 )
 
 func main() {

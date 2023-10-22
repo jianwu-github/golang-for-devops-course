@@ -58,7 +58,7 @@ func doLoginRequest(client http.Client, requestURL, password string) (string, er
 		return "", RequestError{
 			HTTPCode: response.StatusCode,
 			Body:     string(resBody),
-			Err:      fmt.Sprintf("Page unmarshal error: %s", err),
+			Err:      fmt.Sprintf("Login Response unmarshal error: %s", err),
 		}
 	}
 
